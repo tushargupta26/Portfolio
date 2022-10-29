@@ -34,6 +34,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
+    justify-content: space-between;
 }
 
 #menu{
@@ -56,4 +57,37 @@ body {
 .menu-options:hover{
     color: lightgray;
     border-bottom: 0.8px solid black;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name{
+    /* margin-top: 8vh; */
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+#social-media{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 10px 10px 0px;
+}
+
+#social-media div i{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#social-media div i:hover{
+    box-shadow: 0px 0px 6px 10px rgba(230, 196, 196, 0.3);
 }
