@@ -244,3 +244,130 @@ body {
 #work-heading span{
     margin-left: 1.5vw;
 }
+
+#work-exp{
+    position: relative;
+    margin-bottom: 15vh;
+    /* border: 1px solid black; */
+    padding: 5px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.exp-box{
+    position: relative;
+    /* border: 1px solid black; */
+    min-height: 150px;
+    width: 40%;
+    padding: 5px;
+    text-align: right;
+}
+
+.exp-box::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.exp-box:nth-child(odd)::after{
+    right: -24%;
+}
+
+.exp-box:nth-child(even)::after{
+    left: -10%;
+}
+
+.exp-box:nth-child(odd) {
+    /* background-color: red; */
+    /* left: 15%; */
+}
+
+.exp-box:nth-child(even) {
+    /* background-color: green; */
+    left: 58%;
+}
+
+.company-logo{
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+}
+
+.company-logo> img{
+    /* position: absolute; */
+    width: 100%;
+}
+
+.experience-designation {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.experience-company-name {
+    margin: 5px 0 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration {
+    color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;
+}
+
+.experience-description {
+    font-size: 14px;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+#exp-1{ 
+    /* top: 0%; */
+}
+
+#exp-2{
+    /* top: 35%; */
+}
+
+#exp-3{
+    /* top: 70%; */
+}
+
+#timeline{
+    height: 66%;
+    /* border-right: 1px dotted gray; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.traveller{
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+    left: 48%;
+}
+
+#timeline i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: black;
+    /* color: #2857a4; */
+}
+
+.m0 {
+    margin: 0;
+}
