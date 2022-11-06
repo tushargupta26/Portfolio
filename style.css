@@ -281,12 +281,6 @@ body {
 .exp-box:nth-child(even)::after{
     left: -10%;
 }
-
-.exp-box:nth-child(odd) {
-    /* background-color: red; */
-    /* left: 15%; */
-}
-
 .exp-box:nth-child(even) {
     /* background-color: green; */
     left: 58%;
@@ -333,17 +327,6 @@ body {
     text-align: justify;
 }
 
-#exp-1{ 
-    /* top: 0%; */
-}
-
-#exp-2{
-    /* top: 35%; */
-}
-
-#exp-3{
-    /* top: 70%; */
-}
 
 #timeline{
     height: 66%;
@@ -370,4 +353,59 @@ body {
 
 .m0 {
     margin: 0;
+}
+
+/* Portfolio Section */
+#portfolio-heading{
+    color: #2857a4;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 8vh;
+    font-weight: lighter;
+    margin-bottom: 15vh;
+}
+
+#portfolio-heading span{
+    margin-left: 1.5vw;
+}
+
+#portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-project{
+    max-width: 350px;
+    margin: 1px solid black;
+    position: relative;
+    color: transparent;
+    overflow: hidden;
+    margin: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portfolio-project img{
+    height: 100%;
+    width: 100%;
+}
+
+.project-details{
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.portfolio-project:hover{
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-project:hover .project-details{
+    background-color: #80808078;
+    color: white;
 }
