@@ -250,7 +250,7 @@ body {
     margin-bottom: 15vh;
     /* border: 1px solid black; */
     padding: 5px;
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -283,7 +283,8 @@ body {
 }
 .exp-box:nth-child(even) {
     /* background-color: green; */
-    left: 58%;
+    left: 55%;
+    /* width: 44%; */
 }
 
 .company-logo{
@@ -548,4 +549,16 @@ button:focus {
 #copyright-message{
     font-size: 0.7rem;
     text-align: center;
+}
+
+.mb-blue{
+    color: #2857a4;
+}
+
+.goldman-color{
+    color: #64a9f1;
+}
+
+.oyo-color{
+    color: #ee2a24;
 }
