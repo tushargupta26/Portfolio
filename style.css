@@ -439,7 +439,7 @@ body {
     width: 50%;
     margin-left: 7%;
     margin-top: 0;
-    
+    overflow: none;
 }
 
 #contact-form-name{
